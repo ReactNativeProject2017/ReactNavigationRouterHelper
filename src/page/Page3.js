@@ -10,20 +10,20 @@ export  default class Page3 extends Component {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                 <Button
-                title="Go to Page1"
-                onPress={() => NavigationService.popToTop()}
+                title="返回到Page1"
+                onPress={() => NavigationService.popToN(2)}
             />
                 <View
                     style ={{marginVertical:10}}
                 >
                 <Button
-                    title="Go to Page2"
+                    title="返回到Page2"
                     onPress={() => NavigationService.goBack()}
                     style ={{marginVertical:10}}
                 />
                 </View>
                 <Button
-                    title="Go to Page4"
+                    title="跳转到Page4"
                     onPress={() => NavigationService.navigate('Page4')}
                 />
             </View>

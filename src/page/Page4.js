@@ -8,22 +8,30 @@ export default class Page4 extends Component {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Button
-                    title="Go to Page1"
+                    title="返回到Page1"
                     onPress={() => NavigationService.popToRouter('Page1')}
                 />
                 <View
                     style ={{marginVertical:10}}
                 >
                 <Button
-                    title="Go to Page2"
+                    title="返回到Page2"
                     style ={{marginVertical:10}}
                     onPress={() => NavigationService.popToRouter('Page2')}
                 />
                 </View>
                 <Button
-                    title="Go to Page3"
+                    title="返回到Page3"
                     onPress={() => NavigationService.goBack()}
                 />
+                <View
+                    style ={{marginVertical:10}}
+                >
+                    <Button
+                        title="跳转到Page5"
+                        onPress={() => NavigationService.navigate('Page5')}
+                    />
+                </View>
             </View>
         );
     }

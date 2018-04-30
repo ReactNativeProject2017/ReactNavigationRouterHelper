@@ -2,5 +2,9 @@
     {
         "merged": "/Users/caihuajian/Desktop/project/ReactNativeProject/ReactNavigationDemo/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/caihuajian/Desktop/project/ReactNativeProject/ReactNavigationDemo/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/caihuajian/Desktop/project/ReactNativeProject/ReactNavigationRouterHelper/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/caihuajian/Desktop/project/ReactNativeProject/ReactNavigationRouterHelper/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

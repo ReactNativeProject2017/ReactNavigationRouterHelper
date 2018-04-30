@@ -8,14 +8,14 @@ export  default class Page2 extends Component {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                 <Button
-                    title="Go to Page1"
-                    onPress={() => NavigationService.goBack()}
+                    title="返回到Page1"
+                    onPress={() => NavigationService.popToN(1)}
                 />
                 <View
                     style ={{marginVertical:10}}
                 >
                     <Button
-                        title="Go to Page3"
+                        title="跳转到Page3"
                         onPress={() => NavigationService.navigate('Page3')}
                     />
                 </View>
